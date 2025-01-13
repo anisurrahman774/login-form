@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            
+
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            /* border: 2px solid salmon; */
+            margin: 5px;
+
+        }
+       
+    
+
+
+
+
+        .section{
+            display: flex;
+            /* border: 2px solid rgb(27, 197, 98); */
+            justify-content: center;
+        }
+
+
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            /* border: 2px solid salmon; */
+            
+        }
+        .form input{
+            margin-top: 20px;
+            /* border: none; */
+        }
+        .h3{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .submit{
+            background-color: chartreuse;
+            /* border: none; */
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="div">
+            <a href="">Home</a>
+        <a  href="">Profile</a>
+        <a  href="">Blog</a>
+        <a  href="">About</a>
+        </div>
+
+        <a class="a" href="">Login</a>
+
+    </nav>
+    
+    <section class="section">
+        <form class="form">
+            <h3 class="h3">please Login</h3>
+            <input  type="email" name="" id="" placeholder="please Inter your Email" required>
+            <input type="password" name="" id="" placeholder="please inter your password" required>
+            <input class="submit" type="submit" value="Login">
+        </form>
+    </section>
+    
+</body>
+</html>
